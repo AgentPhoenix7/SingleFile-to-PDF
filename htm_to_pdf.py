@@ -187,7 +187,7 @@ def convert(input_path, output_path, paper, landscape, backgrounds):
     size_kb = output_path.stat().st_size / 1024
     print(f"[3/3] Conversion complete.")
     print(f"Saved => {output_path}")
-    print("File size: {size_kb:.2f} KB")
+    print(f"File size: {size_kb:.2f} KB")
     print()
 
 # Main Loop
