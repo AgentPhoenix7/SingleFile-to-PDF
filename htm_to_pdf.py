@@ -118,7 +118,7 @@ def confirm_settings(input_path, output_path, paper, landscape, backgrounds):
     print(f"  Output: {output_path}")
     print(f"  Paper: {paper}")
     print(f"  Layout: {"Landscape" if landscape else "Portrait"}")
-    print(f"  Backgrounds: {"Included" if backgrounds else "Excluded"})")
+    print(f"  Backgrounds: {"Included" if backgrounds else "Excluded"}")
     print()
     print("1 -> Confirm and convert")
     print("2 -> Start over")
